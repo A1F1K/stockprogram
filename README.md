@@ -7,7 +7,7 @@ Config file syntax:
 
 Run stockyard.rb with a custom option to edit config. 
 
-ex. stockyard.rb -at TICK1 TICK2 TICK3
+ex. stockyard.rb -a TICK1 TICK2 TICK3
 
 List of options for editing configs:
 
