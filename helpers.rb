@@ -100,7 +100,9 @@ def get_current_options_hash()
   return hash
 end
 
-
+=begin
+returns an array of tickers ex. AMD NVDA MSFT -> [AMD,NVDA,MSFT]
+=end
 def get_tickers()
   tick_arr = open_config("tickers").split(" ")
   tick_arr.last.gsub!("\n","")
