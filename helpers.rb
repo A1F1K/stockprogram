@@ -27,42 +27,6 @@ def open_config(file)
   return info
 end
 
-=begin
-adds or removes tickers/ticker options
-=end
-def update_config(file,info,option)
-  #open file and read it into inlines array, split user entered options for parsing
-  inf = File.open("#{file}.cf", "a+")
-  inlines = File.read(inf).split
-  info = info.split(" ")
- 
-  if option == "-a"
-     
-    for i in 0..info.length-1
-      if inlines.include?(info[i])
-        puts "duplicate detected: #{info[i]}"
-      else
-        inlines.push info[i]
-      end
-
-      inf = File.open("#{file}.cf","w+")
-      inf << inlines.join(" ")
-    end
-
-  elsif option == "-r"
- 
-    for i in 0..info.length-1  
-      if inlines.include?(info[i])
-        inlines.delete info[i]
-      end
-    end
-
-    inf = File.open("#{file}.cf","w+")
-    inf << inlines.join(" ")
-  end 
-
-  inf.close
-end
 
 =begin
 opens table.txt and formats it to be read into a hash
