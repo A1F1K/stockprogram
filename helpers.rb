@@ -18,7 +18,7 @@ end
 =begin
 opens up a config file but doesn't format in any way
 good for the functions where we want to just read in from the file
-and it's already correctly formatted
+and the default formatting is correct
 =end
 def open_config(file)
   config = File.open("#{file}.cf")

@@ -4,3 +4,8 @@ Config file syntax:
   Put tickers, or financials all on one line seperated by spaces: 
     ex. AMD NVDA MSFT
     ex. o p m2
+
+Have a look at table.txt for a list of all available options to be displayed.
+
+May be adding stuff to this soon, RSS Feed for the stocks you've selected, shit like that. Probably not.
+
