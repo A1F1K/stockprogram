@@ -1,3 +1,5 @@
+#Yahoo has discontinued the ability to download stock prices from their website, this program doesn't function.
+
 Run main.rb to set up your stock following profile based on the config files 'tickers.cf' and 'financials.cf'
 
 Config file syntax:
