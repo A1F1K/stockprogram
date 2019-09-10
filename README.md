@@ -9,5 +9,5 @@ Config file syntax:
 
 Have a look at table.txt for a list of all available options to be displayed.
 
-May be adding stuff to this soon, RSS Feed for the stocks you've selected, shit like that. Probably not.
+May be adding stuff to this soon, RSS Feed for the stocks you've selected, stuff like that. Probably not.
 
